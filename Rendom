@@ -167,13 +167,13 @@ ha = current.day
 today = date.today()
 logo =                                          f"""{H}
                                                                    
- .M"""bgd `7MN.   `7MF'`7MMF'`7MM"""Mq.`7MM"""YMM  `7MM"""Mq.  
-,MI    "Y   MMN.    M    MM    MM   `MM. MM    `7    MM   `MM. 
-`MMb.       M YMb   M    MM    MM   ,M9  MM   d      MM   ,M9  
-  `YMMNq.   M  `MN. M    MM    MMmmdM9   MMmmMM      MMmmdM9   
-.     `MM   M   `MM.M    MM    MM        MM   Y  ,   MM  YM.   
-Mb     dM   M     YMM    MM    MM        MM     ,M   MM   `Mb. 
-P"Ybmmd"  .JML.    YM  .JMML..JMML.    .JMMmmmmMMM .JMML. .JMM.                                                                                                         
+   _____ _   _ _____ _____  ______ _____  
+  / ____| \ | |_   _|  __ \|  ____|  __ \ 
+ | (___ |  \| | | | | |__) | |__  | |__) |
+  \___ \| . ` | | | |  ___/|  __| |  _  / 
+  ____) | |\  |_| |_| |    | |____| | \ \ 
+ |_____/|_| \_|_____|_|    |______|_|  \_\
+                                                                    
      ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ 
        \033[1;32m
 \033[1;39m WELL COME 
