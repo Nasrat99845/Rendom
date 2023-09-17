@@ -1,8 +1,3 @@
-"https://mbasic.facebook.com/profile.php?id=100065533669299",
-import requests
-
-https://free.facebook.com/profile.php?id=100015315258519
-ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #WRITE  :BY MR_NASRAT
 #DECODE: BY NASRAT
 # Source Generated with Decompyle++
