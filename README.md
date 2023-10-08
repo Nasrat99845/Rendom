@@ -4,4 +4,4 @@ git clone https://github.com/Nasrat99845/Rendom.git
 
  cd Rendom 
 
-python Rendom.py
+python Run.py
